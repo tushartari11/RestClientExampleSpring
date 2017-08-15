@@ -1,0 +1,31 @@
+target/
+bin/
+src/main/resources/application-development.properties
+!.mvn/wrapper/maven-wrapper.jar
+*.jks
+!wso2carbon.jks
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### Javascript ###
+src/main/resources/public/swagger-ui
+node_modules
